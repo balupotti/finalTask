@@ -11,7 +11,7 @@ test ('Demo automation page',async({page})=> {
     await page.locator('//input[@type="email"]').fill('Rajakumar@gmail.com')
     await page.locator('//input[@type="tel"]').fill('123456789')
     await page.locator('//input[@value="Male"]').check()
-    await page.locator('//input[@id="checkbox2"]').check()
+    await page.locator('input[value="Movies"]').check();
     await page.locator('//div[@id="msdd"]').click()
     await page.waitForTimeout(3000)
     await page.locator('//a[text()="English"]').click('Enter')
@@ -26,7 +26,7 @@ test ('Demo automation page',async({page})=> {
     await page.locator('//input[@id="imagesrc"]').scrollIntoViewIfNeeded()
     await page.setInputFiles('//input[@id="imagesrc"]','D:/playwrightclass/tests/Amazon.spec.js')
     await page.locator('//button[@id="submitbtn"]').click()
-    await page.waitForTimeout(5000)
+    await page.waitForTimeout(3000)
 
 
 })

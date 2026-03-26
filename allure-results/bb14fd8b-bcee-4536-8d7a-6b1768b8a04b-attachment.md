@@ -1,0 +1,414 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "image not displaying" [ref=e7] [cursor=pointer]:
+        - /url: http://www.automationtesting.in
+        - img "image not displaying" [ref=e8]
+      - heading "Automation Demo Site" [level=1] [ref=e10]
+    - navigation [ref=e11]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: Index.html
+        - listitem [ref=e17]:
+          - link "Register" [ref=e18] [cursor=pointer]:
+            - /url: Register.html
+        - listitem [ref=e19]:
+          - link "WebTable" [ref=e20] [cursor=pointer]:
+            - /url: WebTable.html
+        - listitem [ref=e21]:
+          - link "SwitchTo" [ref=e22] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e23]: 
+        - listitem [ref=e24]:
+          - link "Widgets" [ref=e25] [cursor=pointer]:
+            - /url: Widgets.html
+          - generic [ref=e26]: 
+        - listitem [ref=e27]:
+          - link "Interactions" [ref=e28] [cursor=pointer]:
+            - /url: Interactions.html
+          - generic [ref=e29]: 
+        - listitem [ref=e30]:
+          - link "Video" [ref=e31] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e32]: 
+        - listitem [ref=e33]:
+          - link "WYSIWYG" [ref=e34] [cursor=pointer]:
+            - /url: WYSIWYG.html
+          - generic [ref=e35]: 
+        - listitem [ref=e36]:
+          - link "More" [ref=e37] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e38]: 
+        - listitem [ref=e39]:
+          - link "Practice Site" [ref=e40] [cursor=pointer]:
+            - /url: http://practice.automationtesting.in/
+  - generic [ref=e42]:
+    - heading "Register" [level=2] [ref=e43]
+    - generic [ref=e44]:
+      - insertion [ref=e46]:
+        - generic [ref=e49]:
+          - heading "These are topics related to the article that might interest you" [level=2] [ref=e51]: Discover more
+          - link "Automation testing tools" [ref=e52] [cursor=pointer]:
+            - generic "Automation testing tools" [ref=e53]
+            - img [ref=e55]
+          - link "Test automation courses" [ref=e57] [cursor=pointer]:
+            - generic "Test automation courses" [ref=e58]
+            - img [ref=e60]
+          - link "Functional testing training" [ref=e62] [cursor=pointer]:
+            - generic "Functional testing training" [ref=e63]
+            - img [ref=e65]
+          - link "Graphic design software" [ref=e67] [cursor=pointer]:
+            - generic "Graphic design software" [ref=e68]
+            - img [ref=e70]
+          - link "Data analytics certifications" [ref=e72] [cursor=pointer]:
+            - generic "Data analytics certifications" [ref=e73]
+            - img [ref=e75]
+          - link "Performance testing solutions" [ref=e77] [cursor=pointer]:
+            - generic "Performance testing solutions" [ref=e78]
+            - img [ref=e80]
+          - link "Computer accessories" [ref=e82] [cursor=pointer]:
+            - generic "Computer accessories" [ref=e83]
+            - img [ref=e85]
+          - link "Cross-browser testing" [ref=e87] [cursor=pointer]:
+            - generic "Cross-browser testing" [ref=e88]
+            - img [ref=e90]
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]: Full Name*
+          - textbox "First Name" [ref=e97]: Raju
+          - textbox "Last Name" [ref=e99]: kumar
+        - generic [ref=e100]:
+          - generic [ref=e101]: Address
+          - textbox [ref=e103]: Velachary
+        - generic [ref=e104]:
+          - generic [ref=e105]: Email address*
+          - textbox [ref=e107]: Rajakumar@gmail.com
+        - generic [ref=e108]:
+          - generic [ref=e109]: Phone*
+          - textbox [active] [ref=e111]: "123456789"
+        - generic [ref=e112]:
+          - generic [ref=e113]: Gender*
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - radio "Male" [checked] [ref=e116]
+              - text: Male
+            - generic [ref=e117]:
+              - radio "FeMale" [ref=e118]
+              - text: FeMale
+        - generic [ref=e119]:
+          - generic [ref=e120]: Hobbies
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - checkbox [ref=e123]
+              - generic [ref=e124]: Cricket
+            - generic [ref=e125]:
+              - checkbox [checked] [ref=e126]
+              - generic [ref=e127]: Movies
+            - generic [ref=e128]:
+              - checkbox [ref=e129]
+              - generic [ref=e130]: Hockey
+        - generic [ref=e131]:
+          - generic [ref=e132]: Languages
+          - generic [ref=e136]: English
+        - generic [ref=e138]:
+          - generic [ref=e139]: Skills
+          - combobox [ref=e141]:
+            - option "Select Skills"
+            - option "Adobe InDesign"
+            - option "Adobe Photoshop"
+            - option "Analytics"
+            - option "Android"
+            - option "APIs"
+            - option "Art Design"
+            - option "AutoCAD" [selected]
+            - option "Backup Management"
+            - option "C"
+            - option "C++"
+            - option "Certifications"
+            - option "Client Server"
+            - option "Client Support"
+            - option "Configuration"
+            - option "Content Managment"
+            - option "Content Management Systems (CMS)"
+            - option "Corel Draw"
+            - option "Corel Word Perfect"
+            - option "CSS"
+            - option "Data Analytics"
+            - option "Desktop Publishing"
+            - option "Design"
+            - option "Diagnostics"
+            - option "Documentation"
+            - option "End User Support"
+            - option "Email"
+            - option "Engineering"
+            - option "Excel"
+            - option "FileMaker Pro"
+            - option "Fortran"
+            - option "HTML"
+            - option "Implementation"
+            - option "Installation"
+            - option "Internet"
+            - option "iOS"
+            - option "iPhone"
+            - option "Linux"
+            - option "Java"
+            - option "Javascript"
+            - option "Mac"
+            - option "Matlab"
+            - option "Maya"
+            - option "Microsoft Excel"
+            - option "Microsoft Office"
+            - option "Microsoft Outlook"
+            - option "Microsoft Publisher"
+            - option "Microsoft Word"
+            - option "Microsoft Visual"
+            - option "Mobile"
+            - option "MySQL"
+            - option "Networks"
+            - option "Open Source Software"
+            - option "Oracle"
+            - option "Perl"
+            - option "PHP"
+            - option "Presentations"
+            - option "Processing"
+            - option "Programming"
+            - option "PT Modeler"
+            - option "Python"
+            - option "QuickBooks"
+            - option "Ruby"
+            - option "Shade"
+            - option "Software"
+            - option "Spreadsheet"
+            - option "SQL"
+            - option "Support"
+            - option "Systems Administration"
+            - option "Tech Support"
+            - option "Troubleshooting"
+            - option "Unix"
+            - option "UI / UX"
+            - option "Web Page Design"
+            - option "Windows"
+            - option "Word Processing"
+            - option "XML"
+            - option "XHTML"
+        - generic [ref=e142]:
+          - generic [ref=e143]: Country*
+          - combobox [ref=e145]:
+            - option "Select Country" [selected]
+        - generic [ref=e146]:
+          - generic [ref=e147]: "Select Country :"
+          - generic [ref=e148]:
+            - combobox [ref=e149]
+            - combobox "India" [ref=e152] [cursor=pointer]:
+              - generic "India" [ref=e153]
+        - generic [ref=e154]:
+          - generic [ref=e155]: Date Of Birth
+          - combobox [ref=e157]:
+            - option "year"
+            - option "1916"
+            - option "1917"
+            - option "1918"
+            - option "1919"
+            - option "1920"
+            - option "1921"
+            - option "1922"
+            - option "1923"
+            - option "1924"
+            - option "1925"
+            - option "1926"
+            - option "1927"
+            - option "1928"
+            - option "1929"
+            - option "1930"
+            - option "1931"
+            - option "1932"
+            - option "1933"
+            - option "1934"
+            - option "1935"
+            - option "1936"
+            - option "1937"
+            - option "1938"
+            - option "1939"
+            - option "1940"
+            - option "1941"
+            - option "1942"
+            - option "1943"
+            - option "1944"
+            - option "1945"
+            - option "1946"
+            - option "1947"
+            - option "1948"
+            - option "1949"
+            - option "1950"
+            - option "1951"
+            - option "1952"
+            - option "1953"
+            - option "1954"
+            - option "1955"
+            - option "1956"
+            - option "1957"
+            - option "1958"
+            - option "1959"
+            - option "1960"
+            - option "1961"
+            - option "1962"
+            - option "1963"
+            - option "1964"
+            - option "1965"
+            - option "1966"
+            - option "1967"
+            - option "1968"
+            - option "1969"
+            - option "1970"
+            - option "1971"
+            - option "1972"
+            - option "1973"
+            - option "1974"
+            - option "1975"
+            - option "1976"
+            - option "1977"
+            - option "1978"
+            - option "1979"
+            - option "1980"
+            - option "1981"
+            - option "1982"
+            - option "1983"
+            - option "1984"
+            - option "1985"
+            - option "1986"
+            - option "1987"
+            - option "1988"
+            - option "1989"
+            - option "1990"
+            - option "1991"
+            - option "1992"
+            - option "1993"
+            - option "1994"
+            - option "1995"
+            - option "1996"
+            - option "1997"
+            - option "1998"
+            - option "1999"
+            - option "2000"
+            - option "2001"
+            - option "2002" [selected]
+            - option "2003"
+            - option "2004"
+            - option "2005"
+            - option "2006"
+            - option "2007"
+            - option "2008"
+            - option "2009"
+            - option "2010"
+            - option "2011"
+            - option "2012"
+            - option "2013"
+            - option "2014"
+            - option "2015"
+          - combobox [ref=e159]:
+            - option "Month"
+            - option "January"
+            - option "February"
+            - option "March"
+            - option "April"
+            - option "May"
+            - option "June"
+            - option "July"
+            - option "August"
+            - option "September" [selected]
+            - option "October"
+            - option "November"
+            - option "December"
+          - combobox [ref=e161]:
+            - option "Day"
+            - option "1"
+            - option "2"
+            - option "3"
+            - option "4"
+            - option "5"
+            - option "6"
+            - option "7"
+            - option "8"
+            - option "9"
+            - option "10"
+            - option "11"
+            - option "12"
+            - option "13"
+            - option "14"
+            - option "15"
+            - option "16"
+            - option "17"
+            - option "18" [selected]
+            - option "19"
+            - option "20"
+            - option "21"
+            - option "22"
+            - option "23"
+            - option "24"
+            - option "25"
+            - option "26"
+            - option "27"
+            - option "28"
+            - option "29"
+            - option "30"
+            - option "31"
+        - generic [ref=e162]:
+          - generic [ref=e163]: Password
+          - textbox [ref=e165]: Raja@2022
+        - generic [ref=e166]:
+          - generic [ref=e167]: Confirm Password
+          - textbox [ref=e169]: Raja@2022
+        - generic [ref=e170]:
+          - button "Submit" [ref=e171] [cursor=pointer]
+          - button "Refresh" [ref=e172] [cursor=pointer]
+      - generic [ref=e173]:
+        - generic [ref=e174]: Photo
+        - img [ref=e176]
+        - button "Choose File" [ref=e178]
+  - generic:
+    - insertion:
+      - iframe [ref=e180]:
+        
+  - contentinfo [ref=e181]:
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - text: "\"@ 2016\""
+        - link "Automation Testing" [ref=e185] [cursor=pointer]:
+          - /url: "#"
+        - text: "\"All Rights Reserved.\""
+      - generic [ref=e186]:
+        - link "" [ref=e187] [cursor=pointer]:
+          - /url: https://www.facebook.com/automationtesting2016/
+          - generic [ref=e188]: 
+        - link "" [ref=e189] [cursor=pointer]:
+          - /url: https://twitter.com/krishnasakinala
+          - generic [ref=e190]: 
+        - link "" [ref=e191] [cursor=pointer]:
+          - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+          - generic [ref=e192]: 
+        - link "" [ref=e193] [cursor=pointer]:
+          - /url: https://plus.google.com/105286300926085335367
+          - generic [ref=e194]: 
+        - link "" [ref=e195] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+          - generic [ref=e196]: 
+  - insertion [ref=e197]:
+    - iframe [ref=e200]:
+      - generic [active] [ref=f9e1]:
+        - generic [ref=f9e3]:
+          - link:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CvehJOT3FabzrIIDessUP2_WZqAPV58qPhgGagd3K6hW1nPW0xAEQASCPvrcvYOWS6IPYDqAB0qfFqT_IAQKpAoXbUp8F2kY-qAMByAPJBKoE9QFP0LoRheRIfR1Li2RdbA_gSQkcB5yH3-boxhjQyWdK9FYqrhgjjbl5Ba-kWTEpYG1cbEpeqwfEdVJeZMM6hAyYbgsHjDw1luuU2BL6OmzaFh2pTm5-AFCpu6lNCyGZh9Q7CGIlg9hHrzTovBRaWHsJLJySmjYcnU0nzSRChjicz6PGMOV7hG2FrIt7bF472EzZ2iV81eyj5Ur7ncGRlQsmx4O_zB9ZONQgSGMrEngTiWPX5ekXJgd93bmPCDQE564YKjHR_F7aWCDteGXjBgt4V4dF8XHH_YIA77N4eNsWYHRui1qAJWTTC5Og9veRt2VtFM0MiMAElbm6nNQFiAW93uSdWKAGAoAH0t-ViRqoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOli_qtyL3r2TA7EJYozkEDfg8TaACgGYCwHICwGiDAOQAQGqDQJJTsgNAeoNEwil89yL3r2TAxUAr6wCHdt6BjXwDQKIDgnYEwPQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYBRgCIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI_Ovci969kwMVAK-sAh3begY1EAEYASAAEgIxW_D_BwE&num=1&cid=CAQS5QEABaugfZBJ6fa7QSG_90AGm-msphVAxPW4IL1gw_wHtdTPisFcsHI6_nmVHY8Rm2nKnmzmTdeha_Na43ZYX2RhrEpWMw_HYq7sy0hxfg9la3eHA2jhU1r8lgQt2qesu9TdHBRgwicsMd9ZaCfoxz22CcJezsT8tMMITKy2BmJky_6cLTlPXGmkNFc8CNPXnkF1MuDlBDKF_Ybm70jq0Rv8klsoxO7lKw_Kb7sI0ArhRgCXRrRqG1g_zUU4TeHK3taJTDZIqTPkW-tzc1reQjhKi1qpbxFRUy5BsXPPX0Guk2zLQMpAGAE&sig=AOD64_0OAP-EWAxgOqOEbNjiq_6snN7TXg&client=ca-pub-9173866185064071&rf=2&nb=2&adurl=https://www.rbi.org.in/Commonman/English/Scripts/FAQs.aspx%3FId%3D3686%26gad_source%3D5%26gad_campaignid%3D23684788029%26gclid%3DEAIaIQobChMI_Ovci969kwMVAK-sAh3begY1EAEYASAAEgIxW_D_BwE
+          - img [ref=f9e7] [cursor=pointer]
+          - button [ref=f9e9] [cursor=pointer]:
+            - img [ref=f9e10]
+        - iframe
+  - generic [ref=e201]:
+    - generic [ref=e202] [cursor=pointer]:
+      - img [ref=e204]
+      - link "Go to shopping options for Software testing courses" [ref=e206]: Software testing courses
+    - button "Close shopping anchor" [ref=e207]
+```
